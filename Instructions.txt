@@ -1,0 +1,10 @@
+// Spreadsheet GUI program instructions
+// Written by Solomon Duffin and Jorge Rodriguez for CS 3500, October 2022
+
+To change the value of a cell:
+  - Click on the cell you want to change.
+  - Click on the box named "Content".
+  - Type the desired contents.
+  - Press return/enter.
+
+To 
