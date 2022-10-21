@@ -6,5 +6,36 @@ To change the value of a cell:
   - Click on the box named "Content".
   - Type the desired contents.
   - Press return/enter.
+  - The selected cell will automatically move down by one cell, allowing you to then modify that cell if you wish.
 
-To 
+To open a new file:
+  - Click on upper left “File” label.
+  - Click on “New” option.
+  - If changes have been made that will cause lose of data, caution message will appear and ask if you would like to proceed.
+  - Make selection to proceed or cancel creating new file.
+
+To open an existing file:
+  - Click on upper left “File” label.
+  - Click on “Open” option.
+  - If changes have been made that will cause lose of data, caution message will appear and ask if you would like to proceed.
+  - Make selection to proceed or cancel opening an existing file.
+  - If proceeding, file picker will appear. Select desired file.
+
+To save a file:
+  - Click on upper left “File” label.
+  - Click on “Save” option.
+  - Popup will appear asking for full file path where you would like file saved.
+  - File name at the end of the file path can include “.sprd” at the end or it may be omitted. 
+  - Select to either save file or cancel operation.
+
+SPECIAL FUNCTIONALITY: Row-wise and column-wise cell aggregation.
+  - Our spreadsheet application provides the ability to perform row-wise and column-wise addition, multiplication, and averaging across cells. 
+  - To sum over a range enter “=SUM(START_OF_RANGE:END_OF_RANGE)”.
+  - To multiply over a range enter “=MULT(START_OF_RANGE:END_OF_RANGE)”.
+  - To calculate average over a range enter “=AVG(START_OF_RANGE:END_OF_RANGE)”.
+  - For example, if we wish to perform row-wise summation from cell A1 to cell F1 you would 
+    enter “=SUM(A1:F1)” into the content box. The spreadsheet application will then perform 
+    addition over the cells in the range. Similarly, for column-wise summation from cell A1 
+    to A5 you would enter “=SUM(A1:A5)” into the content box. 
+  - Lowercase function calls are also allowed: =sum, =mult, =avg.
+    *No additional white-spaces are allowed within the call, but whitespace before and after is fine. 
